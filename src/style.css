@@ -1,0 +1,79 @@
+
+@font-face {
+ font-family: 'Titillium';
+ src:  url('./TitilliumWeb-Regular.ttf') format('ttf'),
+       url('./TitilliumWeb-Italic.ttf') format('ttf');
+ font-weight: 600;
+ font-style: normal;
+}
+
+
+.hello {
+    color: red;
+    font-family: "Titillium";
+    background: url('./icon.png');
+  }
+
+  .grid { margin: 1em auto; border: 1px solid #ccc; border-spacing: 0px !important; }
+
+    .grid td {
+        cursor:pointer;
+        width:5px; height:5px;
+  
+        text-align:center;
+        font-family:sans-serif; font-size:13px
+    }
+  
+    .grid td.marked {
+        background-color:#373737; 
+    }
+
+    .grid td.shape1 {
+        background-color:white !important;
+        background : url(shape1.svg) no-repeat !important;
+    }
+
+    .grid td.shape2 {
+        background : url(shape2.svg) no-repeat !important;
+        background-color:white !important;
+    }
+
+    .grid td.shape3 {
+        background : url(shape3.svg) no-repeat !important;
+        background-color:white !important;
+    }
+
+    .grid td.shape4 {
+        background : url(shape4.svg) no-repeat !important;
+        background-color:white !important;
+    }
+
+    .grid td.shape5 {
+        background : url(shape5.svg) no-repeat !important;
+        background-color:white !important;
+    }
+
+    .grid td.shape6 {
+        background : url(shape6.svg) no-repeat !important;
+        background-color:white !important;
+    }
+
+
+
+  .text_input {
+      width: 100%;
+      border: 2px solid #aaa;
+      border-radius: 4px;
+      margin: 8px 0;
+      outline: none;
+      padding: 8px;
+      box-sizing: border-box;
+      transition: 0.3s;
+    }
+
+
+    canvas { 
+        height: 100%; 
+        width: 100%; 
+        display: block;
+      }
