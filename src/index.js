@@ -408,9 +408,9 @@ function Guide() {
 
     var description = document.createElement("div");
     description.innerHTML = `<blockquote>
-    <p style="text-align: left;">1- Enter the text you want to create QR code from to the input below. It will automatically generate QR code below.</p>
-    <p style="text-align: left;">2- You can select&nbsp; shapes from the toolbox below the input field. It will snap to your mouse cursor. Then you can use it like brush over the QR code to paint it.</p>
-    <p style="text-align: left;">3- You can also change color palette from the options below.</p>
+    <p style="text-align: left;">1- Enter the text you want to create QR code from to the input below. It will automatically generate QR code.</p>
+    <p style="text-align: left;">2- You can select&nbsp; shapes from the toolbox below the input field. It will snap to your mouse cursor. Then you can use it like brush over the QR code to paint it. Start brushing from a valid node.</p>
+    <p style="text-align: left;">3- You can also change color palette from the options below. You need to reselect the shape after changing colors.</p>
     </blockquote>`;
 
     return description;
