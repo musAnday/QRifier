@@ -28,36 +28,11 @@
         background-color:#373737; 
     }
 
-    .grid td.shape1 {
-        background-color:white !important;
-        background : url(shape1.svg) no-repeat !important;
-    }
 
-    .grid td.shape2 {
-        background : url(shape2.svg) no-repeat !important;
-        background-color:white !important;
-    }
 
-    .grid td.shape3 {
-        background : url(shape3.svg) no-repeat !important;
-        background-color:white !important;
+    .color_input {
+        margin: .4rem;
     }
-
-    .grid td.shape4 {
-        background : url(shape4.svg) no-repeat !important;
-        background-color:white !important;
-    }
-
-    .grid td.shape5 {
-        background : url(shape5.svg) no-repeat !important;
-        background-color:white !important;
-    }
-
-    .grid td.shape6 {
-        background : url(shape6.svg) no-repeat !important;
-        background-color:white !important;
-    }
-
 
 
   .text_input {
@@ -69,6 +44,28 @@
       padding: 8px;
       box-sizing: border-box;
       transition: 0.3s;
+    }
+
+
+    .toolbox{
+        margin: 1em auto;
+        border: 1px solid #ccc !important; 
+        border-spacing: 5px !important;
+        border: 1px;
+        padding: 0px;
+        border-spacing: 0px;
+    }
+
+    .toolboxitem{
+        width: 18px !important; 
+        height: 18px !important; 
+        background-image: initial; 
+        background-position: initial; 
+        background-size: initial; 
+        background-repeat: initial; 
+        background-attachment: initial; 
+        background-origin: initial; 
+        background-clip: initial;
     }
 
 
